@@ -18,7 +18,7 @@
 'use strict';
 
 var Async = require('async');
-var LevelUp = require('level');
+var LevelUp = require('levelup');
 var Encryptor = require('../../../common/encryptor.js');
 
 var Database = function (opts) {
